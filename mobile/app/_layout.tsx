@@ -6,8 +6,8 @@ import "../global.css";
 export default function RootLayoutNav() {
   return (
     <ClerkProvider tokenCache={tokenCache}>
-      <Stack screenOptions={{headerShown: false}}>
-        <Stack.Screen name="(auth)" options={{headerShown: false}}/>
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="(auth)" />
       </Stack>
     </ClerkProvider>
   );
